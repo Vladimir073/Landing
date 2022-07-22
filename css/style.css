@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit.eot');
+    src: local('../fonts/Larsseit'),
+        url('../fonts/Larsseit.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Larsseit.woff2') format('woff2'),
+        url('../fonts/Larsseit.woff') format('woff'),
+        url('../fonts/Larsseit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Larsseit', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 100%;
+}
+
+[class*="__container"] {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+}
+
+
+/*=========================*/
+
+.title__present {
+    background: #F4F9E2;
+}
+
+.header {
+    margin-bottom: 170px;
+}
+
+.header__container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__item {
+    display: flex;
+    
+}
+
+.nav__link {
+    margin-right: 30px;
+    position: relative;  
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav__list {
+    color: #22356F;
+    transition: all .2s ease;
+}
+
+.nav__list:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #22356F;
+    position: absolute;
+    margin: 5px 0 0;
+}
+
+.header__button {
+    padding: 20px 30px;
+    background: #62D0DF;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 6px;
+}
+
+
+
+
+/*========================*/
+
+.thrivetalk{
+    background: #F4F9E2;
+} 
+
+.thrivetalk__logo {
+    margin-bottom: 30px;
+}
+
+.thrivetalk__title {
+    max-width: 480px;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    color: #22356F;
+    margin-bottom: 60px;
+}
+
+.thrivetalk__subtitle {
+    max-width: 469px;
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.thrivetalk__button {
+    margin-bottom: 80px;
+}
+
+.button-thrivetalk {
+    padding: 10px 30px;
+    background: #F4F9E2;
+    margin-right: 8px;
+    color: #F9B640;
+    transition: all .2s ease;
+}
+
+.button-thrivetalk:hover {
+    background: #F9B640;
+    color: #fff;
+}
+
+/*==========================*/
+
+.why-thrive {
+    display: flex;
+    background: #62D0DF;
+}
+
+.why-thrive__content {
+    /*  flex: 1 1 100%; */
+    flex: 1 1 60%;
+    color: #fff;
+    padding: 0 10px 0 100px;
+
+}
+
+.content-thrive__title {
+    padding-top: 150px;
+    font-size: 36px;
+    line-height: 27px;
+    margin-bottom: 75px;
+}
+
+.content-thrive__subtitle {
+    max-width: 555px;
+    padding-bottom: 100px;
+}
+
+.content-thrive__subtitle-one {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.content-thrive__subtitle-two {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.why-thrive__image {
+    flex: 1 1 40%;
+    background: url(../img/christopher-campbell-40367.png) 0 0 / 100% 100% no-repeat;
+}
+
+/*==========================*/
+
+.about__content {
+    padding: 150px 0 0;
+    display: flex;
+    max-width: 900px;
+    margin: 0 0 70px 90px;
+    justify-content: space-between;
+}
+
+.content-about__title {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #22356F;
+}
+
+.content-about__subtitle {
+    max-width: 590px;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #22356f;
+}
+
+.about__text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+    margin-bottom: 20px;
+}
+
+
+/*=================*/
+
+.sports {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.sports__types {
+    height: 320px;
+    width: 25%;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.sports__types a {
+    color: #fff;
+}
+
+.sports__types::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 255px;
+    background: #fff;
+    margin: 0 auto 30px;
+}
+
+.sports__weight-lifting {
+    background: #FFE2DE;
+}
+
+.sports__running {
+    background: #C4E769;
+}
+
+.sports__pumping {
+    background: #62D0DF;
+}
+
+.sports__iron {
+    background: #0052C1;
+}
+
+
+
+/*==========================*/
+
+
+.health__content {
+    display: flex;
+}
+
+.health__types {
+    flex: 1 1 33%;
+    min-height: 400px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.health__types a {
+    color: #fff;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    text-align: center;
+}
+
+.health__types a::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    margin: 0 auto 30px;
+    background: #fff;
+}
+
+.health__physical {
+    background: #22356F;
+}
+
+.health__mental {
+    background: #0052C1;
+}
+
+.health__nutrition {
+    background: url(../img/joanna-kosinska-340748.png) 0 0/ 100% 100% no-repeat;
+}
+
+.health__gymnastics {
+    background: #62D0DF;
+}
+
+.health__crossfit {
+    background: #DEE1FF;
+}
+
+.health__aerobics {
+    background: #8F00FF;
+}
+
+
+/*===================*/
+
+.nutritional {
+    padding: 20px 0 40px;
+}
+
+.nutritional__content {
+    display: flex;
+}
+
+.nutritional__types {
+    flex: 1 1 33%;
+    padding: 55px 60px 30px 90px
+}
+
+.nutritional__title {
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #22356F;
+}
+
+.nutritional__subtitle {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #22356F80;
+}
+
+
+
+
+
+
+
+/*========================*/
+
+
+.help {
+    display: flex;
+}
+
+.help__content {
+    padding-left: 90px;
+}
+
+.content-help__title {
+    padding-top: 100px;
+    margin-bottom: 225px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #22356F
+}
+
+.content-help__subtitle {
+    max-width: 650px;
+    margin-bottom: 150px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #22356F;
+}
+
+.content-help__subtitle span {
+    color: #6CD3E1;
+}
+
+.content-help__link {
+    color: #FAB63E;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+
+
+
+/*=========================*/
+
+.contact__box {
+    display: flex;
+}
+
+.content-contact {
+    flex: 1 1 100%;
+    background: #22356F;
+    padding-left: 160px;
+    color: #fff;
+}
+
+.content-contact__title {
+    padding-top: 100px;
+    margin-bottom: 230px;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.06em;
+}
+
+.content-contact__subtitle {
+    font-size: 64px;
+    line-height: 94px;
+    letter-spacing: -0.01em;
+}
+
+.content-contact__text {
+    max-width: 580px;
+    margin-bottom: 80px;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.005em;
+    text-align: left;
+}
+
+.content-contact__link {
+    color: #62D0DF;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+}
+
+.contact-content {
+    padding: 100px 40px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-content__block {
+    width: 240px;
+}
+
+.contact-content__title {
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    text-align: left;
+    color: #22356F;
+    margin-bottom: 50px;
+
+}
+
+.contact-content__subtitle {
+    color: #22356F80;
+}
+
+.contact-content__subtitle p:first-child {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*==================*/
+.footer {
+    height: 80px;
+    background: #62D0DF;
+    display: flex;
+    padding-left: 160px;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 11px;
+    letter-spacing: -0.006em;
+    text-align: left;
+}
+
+.footer__imag {
+    margin-right: 10px;
+}
